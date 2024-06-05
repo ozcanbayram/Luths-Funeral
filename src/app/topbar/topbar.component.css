@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.topbar {
+    width: 100%;
+    height: 6vh;
+    background-color: #303030;
+    color: #fff;
+    display: flex;
+    /* line-height: 40px; */
+}
+
+.gift-box {
+    margin-top: 0.5%;
+    margin-left: 10%;
+    width: 30px;
+    height: 30px;
+}
+
+.top-bar-text {
+    margin-top: 15px;
+    margin-left: 1%;
+}
