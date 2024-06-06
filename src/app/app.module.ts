@@ -5,7 +5,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TopbarComponent } from './topbar/topbar.component';
 import { LogobannerComponent } from './logobanner/logobanner.component';
-import { NavbarComponent } from './navbar/navbar.component';
 import { MainComponent } from './main/main.component';
 
 @NgModule({
@@ -13,7 +12,6 @@ import { MainComponent } from './main/main.component';
     AppComponent,
     TopbarComponent,
     LogobannerComponent,
-    NavbarComponent,
     MainComponent
   ],
   imports: [

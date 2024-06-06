@@ -1,16 +1,19 @@
 .main-page {
     padding: 25px;
     margin-left: 8%;
-
+    flex-wrap: wrap;
 }
 
 .photo {
     /* margin: 20px; */
     padding: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: 0;
 }
 
 .photo1 {
-    width: 45%;
+    width: 42.5%;
     /* height: 50vh; */
     float: left;
 }
@@ -27,5 +30,4 @@
 
 .photo4 {
     width: 42%;
-    height: 265px;
 }

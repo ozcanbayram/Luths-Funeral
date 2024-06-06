@@ -1,3 +1,4 @@
+// logobanner.component.ts
 import { Component } from '@angular/core';
 
 @Component({
@@ -6,5 +7,20 @@ import { Component } from '@angular/core';
   styleUrls: ['./logobanner.component.css']
 })
 export class LogobannerComponent {
+  menuItems: string[] = [
+    'BEST SELLER',
+    'FOR CASKETS',
+    'PLANTS',
+    'BOUQUETS',
+    'STANDING SPRAYS & WREATHS'
+  ];
+
+  menuActive = false;
+
+  toggleMenu() {
+    this.menuActive = !this.menuActive;
+  }
+
+
 
 }
