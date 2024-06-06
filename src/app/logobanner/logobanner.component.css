@@ -1,3 +1,5 @@
+/* logobanner.component.css */
+
 .logobanner {
     width: 100%;
     background-color: #F8F9FA;
@@ -64,16 +66,16 @@
 
 .nav-bar {
     height: 5vh;
-    padding: 0 150px;
     display: flex;
     flex-wrap: nowrap;
     flex-shrink: 0;
+    justify-content: flex-start;
 }
 
 .nav-bar nav {
     display: flex;
     justify-content: left;
-
+    margin-left: 150px;
 }
 
 .nav-bar nav ul {
@@ -95,6 +97,7 @@
     display: none;
 }
 
+.menuActive {}
 
 @media (max-width: 768px) {
     .menu {
@@ -127,8 +130,7 @@
     }
 
     .nav-bar {
-        height: 15vh;
-        padding: 0 150px;
+        height: 16vh;
         display: flex;
         flex-wrap: nowrap;
         flex-shrink: 0;
