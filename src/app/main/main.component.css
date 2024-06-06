@@ -1,0 +1,31 @@
+.main-page {
+    padding: 25px;
+    margin-left: 8%;
+
+}
+
+.photo {
+    /* margin: 20px; */
+    padding: 1%;
+}
+
+.photo1 {
+    width: 45%;
+    /* height: 50vh; */
+    float: left;
+}
+
+.photo2 {
+    width: 20%;
+    float: left;
+}
+
+.photo3 {
+    width: 20%;
+    display: block;
+}
+
+.photo4 {
+    width: 42%;
+    height: 265px;
+}
