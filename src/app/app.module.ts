@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { TopbarComponent } from './topbar/topbar.component';
 import { LogobannerComponent } from './logobanner/logobanner.component';
 import { MainComponent } from './main/main.component';
+import { DropdownMenuComponent } from './dropdown-menu/dropdown-menu.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TopbarComponent,
     LogobannerComponent,
-    MainComponent
+    MainComponent,
+    DropdownMenuComponent
   ],
   imports: [
     BrowserModule,

@@ -4,10 +4,11 @@
     <input type="submit" value="Search" class="search-bar search-button">
     <img src="../assets/images/telefon.png" alt="" class="contact phone">
     <p class="contact number">(844)-799-2245</p>
-    <img src="../assets/images/menu.png" alt="menu button" width="40" class="menu" (click)="toggleMenu()">
+    <!-- <img src="../assets/images/menu.png" alt="menu button" width="40" class="menu" (click)="toggleMenu()"> -->
+    <app-dropdown-menu class="menu"></app-dropdown-menu>
 
 </div>
-<div class="logobanner nav-bar" [class.active]="menuActive">
+<div class="logobanner nav-bar">
     <nav>
         <ul>
             <li *ngFor="let item of menuItems"><a href="#"> {{ item }}</a></li>

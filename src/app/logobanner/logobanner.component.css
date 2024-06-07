@@ -97,7 +97,6 @@
     display: none;
 }
 
-.menuActive {}
 
 @media (max-width: 768px) {
     .menu {
@@ -115,10 +114,25 @@
         display: none;
     }
 
+    .logo-bar {
+        /*height: 20vh;*/
+        display: flexbox;
+        align-self: center;
+    }
+
+    /* .nav-bar {
+        height: 10vh;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        justify-content: flex-start;
+    } */
+
     .nav-bar nav ul {
-        flex-direction: column;
+        /* flex-direction: column;
         position: absolute;
-        left: 0px;
+        left: 0px; */
+        display: none;
     }
 
     .search-button {
@@ -130,10 +144,16 @@
     }
 
     .nav-bar {
-        height: 16vh;
+        /* height: 10vh; */
         display: flex;
         flex-wrap: nowrap;
         flex-shrink: 0;
+    }
+
+    .logo-bar {
+        height: 8vh;
+        display: flexbox;
+        align-self: center;
     }
 
 }

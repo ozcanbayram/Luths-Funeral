@@ -1,0 +1,11 @@
+<img src="../../assets/images/menu.png" alt="menu" (click)="toggleMenu()">
+
+<!-- <button (click)="toggleMenu()">a</button> -->
+<div *ngIf="isMenuOpen" class="menu">
+    <ul>
+        <li *ngFor="let item of menuItems"><a href="#"> {{ item }}</a></li>
+        <li><input type="text" placeholder="Search Products..." class="search-bar search">
+            <input type="submit" value="Search" class="search-bar search-button">
+        </li>
+    </ul>
+</div>

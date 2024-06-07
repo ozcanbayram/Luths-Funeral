@@ -14,9 +14,5 @@ export class LogobannerComponent {
     'BOUQUETS',
     'STANDING SPRAYS & WREATHS'
   ];
-  menuActive = false;
 
-  toggleMenu() {
-    this.menuActive = !this.menuActive;
-  }
 }
